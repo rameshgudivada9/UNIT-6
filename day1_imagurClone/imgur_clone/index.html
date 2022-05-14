@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imgur:Te magic of internet</title>
+    <link rel="logo" href="https://imgur.io/assets/icons/icon-60.png"/>
+    <style>
+        *{
+            color: white;
+        }
+        .container{
+            /* border: 1px solid red; */
+            width: 100%;
+            height: 400px;
+            background: url("https://images.squarespace-cdn.com/content/v1/59b44ed8ccc5c5736a2f490d/1518626963584-NFPZVA5VOT8PH4YFICSV/bg2.jpg?format=2500w");
+            align-items: center;
+            z-index: 2;
+        }
+        .background{
+            width: 70%;
+            height: 20%;
+        }
+        .navbar{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            text-align: center;
+
+        }
+        .search{
+            display: flex;
+            justify-content: space-between;
+        }
+        .search div input{
+            width: 170%;
+            width: 200%;
+            background-color: #515073;
+            color:gainsboro;
+            border: none;
+            margin-top: 10px;
+            padding: 10px;
+
+        }
+        .searchbtn{
+            margin-top: 10px;
+            padding: 9.5px;
+           margin-left: 180px;
+           background-color:  #515073;
+           border: none;
+
+        }
+        .logo-image{
+            width: 50%;
+        }
+        .btns{
+            margin-top: 10px;
+        }.go-add{
+            background-color: #6332f8;
+            color: white;
+            border: none;
+            padding: 5px;
+            border-radius: 3px;
+        }
+        .sign{
+            color: white;
+        }
+        .Sign-up{
+            background-color:#1bb76e;
+            color: white;
+            border: none;
+            padding: 5px;
+            border-radius: 3px;
+        }
+        .subtitle{
+            margin-left: 35%;
+            justify-content: center;
+            display: inline-block;
+            align-items: center;
+            /* border: 1px solid greenyellow; */
+        }
+        .sub-wallpapers{
+            display: flex;
+            width: 80%;
+            margin: auto;
+        }
+        .sub-wallpapers div img{
+            width: 60%;
+            height: 80%;
+        }
+        .sub-wallpapers div{
+            text-align: center;
+        }
+
+
+        .dummy{
+            background-color: #2d3035;
+            z-index: 1;
+            height: 1500px;
+        }
+        #main{
+            width: 80%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 10px;
+            position: absolute;
+            top:340px;
+            left: 100px;
+            z-index: 3;
+    
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="navbar">
+   <div class="logo">
+<img class="logo-image" src="https://imgur.io/assets/logo-imgur-white.500c4b1b78d795b174c086718f0fc9fc.png"/>
+   </div>
+   <div class="search">
+      <div> <input  type="text" id="searchinput" placeholder="Images,#tags,@users Oh my!"/></div>
+     <div><button class="searchbtn" onclick="anyMovie()">search</button></div>
+
+   </div>
+   <div class="btns">
+       <button class="go-add">Go-Add-Free</button>
+       <a class="sign">Sign in</a>
+       <button class="Sign-up">Sign Up</button>
+   </div>
+        </div>
+
+<div class="subtitle"><h2>A cow-bison hybrid is called a "beefalo."</h2></div>
+<div class="sub-wallpapers">
+    <div>
+        <img width="20%" src="https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/820/cached.offlinehbpl.hbpl.co.uk/news/SUC/TCMLogo.jpg" alt="">
+        <h2>Data</h2>
+    </div>
+    <div>
+        <img width="20%" src="https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/820/cached.offlinehbpl.hbpl.co.uk/news/SUC/TCMLogo.jpg" alt="">
+        <h2>Data</h2>
+    </div>
+    <div>
+        <img width="20%" src="https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/820/cached.offlinehbpl.hbpl.co.uk/news/SUC/TCMLogo.jpg" alt="">
+        <h2>Data</h2>
+    </div>
+    <div>
+        <img width="20%" src="https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/820/cached.offlinehbpl.hbpl.co.uk/news/SUC/TCMLogo.jpg" alt="">
+        <h2>Data</h2>
+    </div>
+    <div>
+        <img width="20%" src="https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/820/cached.offlinehbpl.hbpl.co.uk/news/SUC/TCMLogo.jpg" alt="">
+        <h2>Data</h2>
+    </div>
+    <div>
+        <img width="20%" src="https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/820/cached.offlinehbpl.hbpl.co.uk/news/SUC/TCMLogo.jpg" alt="">
+        <h2>Data</h2>
+    </div>
+    <div>
+        <img width="20%" src="https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/820/cached.offlinehbpl.hbpl.co.uk/news/SUC/TCMLogo.jpg" alt="">
+        <h2>Data</h2>
+    </div>
+    <div>
+        <img width="20%" src="https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/820/cached.offlinehbpl.hbpl.co.uk/news/SUC/TCMLogo.jpg" alt="">
+        <h2>Data</h2>
+    </div>
+
+</div>
+
+
+    </div>
+    <div class="dummy">
+
+    </div>
+        <div id="main"></div>
+
+    
+</body>
+</html>
+<script>
+var key2="https://www.omdbapi.com/?apikey=f3d5c71f&s=${movie}"
+
+var container=document.querySelector("#main");
+
+async function anyMovie(){
+    try{
+//    var movie=document.querySelector("#searchinput").value;
+   let res=await fetch(`https://www.omdbapi.com/?apikey=4572366c&s=avengers`);
+
+   let data=await res.json();
+
+   appendData(data.Search);
+
+   console.log(data.Search);
+
+  } catch(err){
+
+   console.log(err);
+
+   }
+
+}
+
+anyMovie();
+
+function appendData(data){
+   container.innerHTML=""
+
+data.forEach(function(el){
+
+  
+
+   let div=document.createElement('div');
+
+   let img=document.createElement('img');
+   img.src=el.Poster;
+
+   let title=document.createElement('h3');
+   title.innerText=el.Title;
+
+   let year=document.createElement('p');
+   year.innerText=el.Year;
+
+   div.append(img,title,year);
+
+   container.append(div)
+
+   
+
+})
+
+}
+
+
+</script>
+

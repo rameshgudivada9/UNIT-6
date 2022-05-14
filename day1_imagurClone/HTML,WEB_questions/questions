@@ -1,0 +1,164 @@
+1.What is !important?
+The ! important rule in CSS is used to add more importance to a property/value than normal.
+ In fact, if you use the ! important rule, it will override ALL previous styling rules for that specific property on that element!
+
+ 2.what is box model?
+ In CSS, the term "box model" is used when talking about design and layout. The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.
+ In CSS we broadly have two types of boxes — block boxes and inline boxes. 
+
+ 3.What are the differences between relative,absolute and fixed in CSS?
+position: relative places an element relative to its current position without changing the layout around it, whereas 
+position: absolute places an element relative to its parent's position and changing the layout around it.
+position: fixed is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled.
+
+4.what is CSS positioning?
+The CSS position property defines the position of an element in a document. This property works with the left, right, top, bottom and z-index properties to determine the final position of an element on a page. There are five values the position property can take.
+static.
+relative.
+fixed.
+absolute.
+sticky.
+
+5.the difference between display none and display hidden?
+display:none means that the tag in question will not appear on the page at all (although you can still interact with it through the dom). ... 
+visibility:hidden means that unlike display:none , the tag is not visible, but space is allocated for it on the page. The tag is rendered, it just isn't seen on the page.
+
+6.What is the difference between flex and grids?
+Grid is made for two-dimensional layout while Flexbox is for one-dimentional. This means Flexbox can work on either row or columns at a time, but Grids can work on both. Flexbox, gives you more flexibility while working on either element (row or column).
+	Grid-	Layout First	
+ Flexbox-	Content First
+
+ 7.What is BEM?
+ BEM stands for Block Element Modifier. BEM is a front-end naming method for organizing and naming CSS classes.
+ The Block, Element, Modifier methodology is a popular naming convention for class names in HTML and CSS.
+ The main idea behind it is to speed up the development process, and ease the teamwork of developers by arranging CSS classes into independent modules.
+
+ 8.What is the z-index? What is the stacking context?
+
+Z Index ( z-index ) is a CSS property that defines the order of overlapping HTML elements. Elements with a higher index will be placed on top of elements with a lower index. 
+Note: Z index only works on positioned elements ( position:absolute , position:relative , or position:fixed ).
+
+The stacking context is a three-dimensional conceptualization of HTML elements along an imaginary z-axis relative to the user, who is assumed to be facing the viewport or the webpage. HTML elements occupy this space in priority order based on element attributes.
+
+9.Explain briefly what happens when you hit a url? explain DNS lookup
+You enter a URL into a web browser. 
+The browser looks up the IP address for the domain name via DNS. 
+The browser sends a HTTP request to the server. The server sends back a HTTP response.
+
+
+10.What is a URLs full form? Explain what a url is and the four parts it consists of The protocol in use The hostname of the server The location of the file The arguments to the file?
+A URL (Uniform Resource Locator) is a unique identifier used to locate a resource on the Internet. 
+It is also referred to as a web address. URLs consist of multiple parts -- including a protocol and domain name -- that tell a web browser how and where to retrieve a resource.
+The four main components of URLs are the protocol, domain, path, and query.
+
+
+
+11.What is HTTP protocol?
+HTTP stands for Hypertext Transfer Protocol. It is used to access data on the WWW (World Wide Web). It is a protocol which governs the communication between the client and server. After a request is made, the client disconnects from the server and waits for a response.
+
+
+12.What is TCP Protocol?
+TCP stands for Transmission Control Protocol a communications standard that enables application programs and computing devices to exchange messages over a network. It is designed to send packets across the internet and ensure the successful delivery of data and messages over networks.
+
+
+13.Explain all the different HTTP methods?
+The primary or most commonly-used HTTP methods are POST, GET, PUT, PATCH, and DELETE. These methods correspond to create, read, update, and delete (or CRUD) operations, respectively.
+
+
+14.What are HTTP headers?
+In simpler terms, HTTP headers are the code that transfers data between a Web server and a client. HTTP headers are mainly intended for the communication between the server and client in both directions.
+
+
+
+15.What are some HTTP response codes? what does it mean? 2xx, 3xx, 4xx, 5xx?
+A 2xx Succesful status code means that the request was successful and the browser has received the expected information. This is generally the one you want to see, as it means that the request was a success and has been received, understood and accepted it.
+
+The 3xx class of HTTP Status Codes indicates that further action needs to be taken by the user agent in order to fulfill a request. The required action may be carried out by the user agent without interaction with the user, if and only if, the method used in the second request is GET or HEAD.
+
+A 4xx code indicates an error caused by the user, whereas 5xx codes tell the client that they did everything correctly and it's the server itself who caused the problem.
+
+
+
+16.What does cache control on http response mean?
+Cache-control is an HTTP header used to specify browser caching policies in both client requests and server responses. Policies include how a resource is cached, where it's cached and its maximum age before expiring
+
+17.What is polling?
+Polling is the process where the computer or controlling device waits for an external device to check for its readiness or state, often with low-level hardware. For example, when a printer is connected via a parallel port, the computer waits until the printer has received the next character.
+
+18.What is long polling?
+Polling is a technique that allows the servers to push information to a client. 
+Long polling is a version of traditional polling that allows the server to send data to a client whenever available.
+
+19.What are web sockets?
+The WebSocket API is an advanced technology that makes it possible to open a two-way interactive communication session between the user's browser and a server. With this API, you can send messages to a server and receive event-driven responses without having to poll the server for a reply.
+
+20.How is websocket different from HTTP?
+Unlike HTTP, where you have to constantly request updates, with websockets, updates are sent immediately when they are available. WebSockets keeps a single, persistent connection open while eliminating latency problems that arise with HTTP request/response-based methods.
+
+
+21.What is HTTPS?
+HTTPS (Hypertext Transfer Protocol Secure) is an internet communication protocol that protects the integrity and confidentiality of data between the user's computer and the site. Users expect a secure and private online experience when using a website.
+
+22.What is Cross Origin Resource Sharing? ( CORS ) Why do we need it?
+Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources.
+
+
+23.What does Access-Control-Allow-Origin header do?
+The Access-Control-Allow-Origin header is included in the response from one website to a request originating from another website, and identifies the permitted origin of the request.
+
+
+24.What is clickjacking? How do you fix it?
+Image result for What is clickjacking? How do you fix it?
+Clickjacking is an attack that tricks a user into clicking a webpage element which is invisible or disguised as another element. This can cause users to unwittingly download malware, visit malicious web pages, provide credentials or sensitive information, transfer money, or purchase products online.
+
+A better approach to prevent clickjacking attacks is to ask the browser to block any attempt to load your website within an iframe. You can do it by sending the X-Frame-Options HTTP header.
+
+
+
+
+25.What are some performance metrics for your website?
+The Top Ten Website Performance Metrics
+Page Speed. Page speed is one of the most important metrics to be aware of, and it can have a far greater impact than you may even realize. ...
+Time to Title. ...
+Time to Start Render. ...
+Time to Interact. ...
+DNS Lookup Speed. ...
+Bounce Rate. ...
+Requests Per Second. ...
+Error Rate.
+
+
+
+
+26.What does the following term mean?
+Time to first byte,
+Page load time
+
+Time to First Byte (TTFB) refers to the time between the browser requesting a page and when it receives the first byte of information from the server.
+Page load time is the time it takes for a page to load, measured from navigation start to the start of the load event.
+
+
+
+27.What do CDN or Content Delivery Networks do? When do you need a CDN?
+A content delivery network (CDN) refers to a geographically distributed group of servers which work together to provide fast delivery of Internet content. A CDN allows for the quick transfer of assets needed for loading Internet content including HTML pages, javascript files, stylesheets, images, and videos.
+Anybody who has a website or mobile application that's likely to be requested by more than one user at a time can benefit from a CDN.
+
+
+
+28.What is the difference between Client Side Renderring and Server Side Renderring?
+Client-side rendering manages the routing dynamically without refreshing the page every time a user requests a different route. But server-side rendering is able to display a fully populated page on the first load for any route of the website, whereas client-side rendering displays a blank page first.
+
+Client-side and server-side are sometimes referred to as front-end and back-end. The client-side of a website refers to the web browser and the server-side is where the data and source code is stored
+
+
+
+29.What is Progressive Rendering?
+Progressive Rendering is the technique of sequentially rendering portions of a webpage in the server and streaming it to the client in parts without waiting for the whole page to rendered.
+
+
+30.What is the difference between Preloading and Prefetching resources?
+Preload is an early fetch instruction to the browser to request a resource needed for a page (key scripts, Web Fonts, hero images). Prefetch serves a slightly different use case — a future navigation by the user (e.g between views or pages) where fetched resources and requests need to persist across navigations.
+
+
+31.What are service workers?
+A service worker is a type of web worker. It's essentially a JavaScript file that runs separately from the main browser thread, intercepting network requests, caching or retrieving resources from the cache, and delivering push messages.

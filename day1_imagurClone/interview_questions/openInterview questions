@@ -1,0 +1,85 @@
+
+
+1.What are some new things happening in the web?
+   Progressive Web Apps (PWA)
+In 2019, 65% of online shopping orders through the website were made with mobile devices. PWA’s rising website trend makes it possible for users to view their favorite websites on a mobile web browser or desktop and without downloading special apps or computer programs. PWAs in 2021 will be written with HTML and CSS, JavaScript, React, or Angular. Besides great user experience and no need for programs, PWA could send push notifications and provide users with offline access to cached content.
+ 
+   Artificial Intelligence and Bots
+Huge B2C companies already use the technology to serve their customers — official page chatbots inside Facebook Messenger, WhatsApp, and Skype are good examples. A bot could be also integrated into PWA, regular website, professional or household equipment, and any Internet-connected app developed by a commercial company. 
+ 
+    Single Page Application (SPA)
+Single page application (or SPA) is one of the new website trends that helps us avoid seamless communication with the server and show better page performance and provide a high data protection level. 
+
+   Voice Search Optimization
+In 2021, more than half of all smart and IoT devices will hear users and execute commands given by voice. And even more — they will be able to recognize the voices of different people and provide personalized AI-based experiences for everyone. 
+
+    Mobile-First Development
+ there will be significantly more mobile devices than regular personal computers and now, we’ve got as much as 54% of the Internet traffic consumed with mobiles and tablets. So no surprises that web design trends tend to be more about small mobile screens than horizontally-oriented desktops.
+
+2.Explain a project that you have built?
+one of my project was Apple Tv+ clone.Basically Apple TV+ is a streaming service feature from Apple Originals.
+
+we use css,html,javaScript.
+
+
+
+3.Whats something exciting that you have built?
+in our project.i design background video part.for that i used loop to auto diplay the video.and give setinterval to diplay the video. i give poster to that video after 5 seconds the video will play with out hold any key.it was centre of attraction of my project.
+
+4.What are you most excited about?
+i was most excited about the techonologies.how the web pages works?,the total world is going to digital.i was most excited to this advance features.
+
+5.Why do coding standards matter? What are some patterns you follow?
+Coding standards help in the development of software programs that are less complex and thereby reduce the errors. 
+If programming standards in software engineering are followed, the code is consistent and can be easily maintained.
+ This is because anyone can understand it and can modify it at any point in time.
+
+Focus on code readability
+Write as few lines as possible.
+Use appropriate naming conventions.
+Segment blocks of code in the same section into paragraphs.
+Use indentation to marks the beginning and end of control structures. ...
+Don't use lengthy functions. ...
+Use the DRY (Don't Repeat Yourself) principle. ...
+Avoid Deep Nesting.
+
+6.How do you go about managing responsive websites?
+
+  a. Focus On The Content
+    What does content have to do with website design? A whole lot.
+
+    b. Get To Know The Media Query
+    The backbone of responsive design is the ability to shift and format content depending on the size of the screen. In technical terms, this is known as “the media query.”
+
+     c. Keep A “Mobile First” Mentality
+    When designing a responsive website, start with mobile styles as your foundation and add additional columns and styles with media queries. This way, if someone lands on your site using a device or browser that does not support media queries, they will be able to see the mobile version of your site.
+
+    d. Create A Flexible Foundation
+    Are you familiar with set-width and fluid grids? The biggest difference between the two is the way they calculate the widths of elements on websites.
+
+     A set-width grid calculates the sizes of elements by pixels.
+     A fluid grid calculates the sizes of elements by percentages.
+
+     e. Don’t Neglect The Navigation
+    Navigation is one of the most important assets of a website. Unfortunately, it’s also one that most “responsive websites” get wrong. Don’t fall into this trap!
+
+    f. Optimize Your Assets
+    g. Make Your Website “Touch-Friendly”
+    With people browsing more and more frequently on mobile devices, they are sacrificing the accuracy of a mouse or stylus for the convenience of using their fingers.
+
+    h.Pick The Right Content Management System (CMS)
+    i. Invest In Testing Tools
+     Just because your responsive website looks great on your computer and smartphone doesn’t mean others will have the same experience.
+<!-- Set Appropriate Responsive Breakpoints.
+Start with a Fluid Grid.
+Take touchscreens into consideration.
+Use Responsive Images and Videos.
+Define Typography.
+Use a pre-designed theme or layout to save time.
+Test Responsiveness on Real Devices. -->
+
+7.What do you care about the most when you write software?
+Clarity of code. 
+Clarity of design. 
+Clarity of purpose. 
+You must understand — really understand — what you're doing at every level.
