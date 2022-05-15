@@ -97,7 +97,7 @@
         .dummy{
             background-color: #2d3035;
             z-index: 1;
-            height: 1500px;
+            height: 1600px;
         }
         #main{
             width: 80%;
@@ -176,6 +176,7 @@
     <div class="dummy">
 
     </div>
+    <div id=master></div>
         <div id="main"></div>
 
     
@@ -185,11 +186,13 @@
 var key2="https://www.omdbapi.com/?apikey=f3d5c71f&s=${movie}"
 
 var container=document.querySelector("#main");
+var master=document.querySelector("#master");
+
 
 async function anyMovie(){
     try{
-//    var movie=document.querySelector("#searchinput").value;
-   let res=await fetch(`https://www.omdbapi.com/?apikey=4572366c&s=avengers`);
+   var movie=document.querySelector("#searchinput").value;
+   let res=await fetch(`https://www.omdbapi.com/?apikey=4572366c&s=${movie}`);
 
    let data=await res.json();
 
@@ -206,6 +209,54 @@ async function anyMovie(){
 }
 
 anyMovie();
+
+function appendData(data){
+   container.innerHTML=""
+
+data.forEach(function(el){
+
+  
+
+   let div=document.createElement('div');
+
+   let img=document.createElement('img');
+   img.src=el.Poster;
+
+   let title=document.createElement('h3');
+   title.innerText=el.Title;
+
+   let year=document.createElement('p');
+   year.innerText=el.Year;
+
+   div.append(img,title,year);
+
+   master.append(div)
+
+   
+
+})
+
+}
+
+async function dataMovie(){
+    try{
+   let res=await fetch(`https://www.omdbapi.com/?apikey=4572366c&s=avengers`);
+
+   let data=await res.json();
+
+   appendData(data.Search);
+
+   console.log(data.Search);
+
+  } catch(err){
+
+   console.log(err);
+
+   }
+
+}
+
+dataMovie();
 
 function appendData(data){
    container.innerHTML=""
