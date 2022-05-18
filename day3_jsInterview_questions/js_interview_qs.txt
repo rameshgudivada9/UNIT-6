@@ -36,7 +36,7 @@ function ReverseString(str) {
 console.log(ReverseString(str))
 
 
-// itreration mathod
+// iteration method
 var bag="";
 for(var i=str.length-1;i>=0;i--){
 bag=bag+str[i];
@@ -72,5 +72,6 @@ console.log(check(obj1,obj2))
 
 8.What is shallow equal?
 
-A function for performing a shallow comparison between two objects or arrays. Two values have shallow equality when all of their members are strictly equal to the corresponding member of the other.
+A function for performing a shallow comparison between two objects or arrays. 
+Two values have shallow equality when all of their members are strictly equal to the corresponding member of the other.
 
